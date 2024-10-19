@@ -1,5 +1,6 @@
 import "./globals.css";
 import { Poppins } from "next/font/google";
+import Footer from "/src/components/Footer";
 
 const inter = Poppins({ subsets: ["latin"], weight: ["400", "700"] });
 export const metadata = {
@@ -12,6 +13,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-smooth">
       <body className={inter.className}>{children}</body>
+      
+      <Footer />
     </html>
   );
 }
