@@ -1,4 +1,4 @@
-import Logo from "../assets/blacklogo.png";
+// import Logo from "../assets/blacklogo.png";
 // import Link from "next/link"
 import { FaFacebook, FaInstagram } from "react-icons/fa6";
 import { BsTwitterX } from "react-icons/bs";
@@ -18,7 +18,7 @@ function Footer() {
             <footer className=" w-{1440px} flex md:flex-row flex-col bg-green-700 h-{160px}">
                 <div className="">
                     
-                <nav className="flex gap-7 p-{8px} mt-{66.5px} w-{714px} h-{31px} px-10">
+                <nav className="flex gap-7 p-{8px} mt-{66.5px} w-{714px} h-{31px} px-10 text-1xl">
                     {footerLinks.map((link, index) => (
                         <p key={index}>{link.heading}</p>
                     ))}
