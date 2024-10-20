@@ -131,12 +131,18 @@
 
     background-color: rgba(46, 45, 45, 0.664);
 
-    /*
-    background-image: url();
+    background-image: url(./assets/For\ Assets\ 1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
-    */
+    
+}
+
+#text-sectionB
+{
+    width: 60%;
+    margin-right: auto;
+
 }
 
 #title-sectionB
@@ -151,8 +157,37 @@
     color: rgb(39, 236, 39);
 }
 
-#title-sectionB p
+#text-sectionB p 
 {
     font-weight: 400;
     font-size: 14px;
+}
+
+li
+{
+    font-weight: 400;
+    font-size: 14px;
+
+    margin-left: 80px;
+    padding: 8px;
+}
+
+#sectionB-btns
+{
+    font-weight: medium;
+    font-size: 14px;
+
+    padding: 8px 0px 8px 80px;
+    display: flex;
+    gap: 16px;
+}
+
+#sectionB-btns #btn1
+{
+    padding: 8px 16px;
+}
+
+#sectionB-btns #btn2
+{
+    padding: 8px 16px;
 }
