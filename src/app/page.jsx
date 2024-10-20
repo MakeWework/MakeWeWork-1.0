@@ -1,21 +1,13 @@
 import Navbar from "@/components/Navbar";
-
+import Landingpage from "./Pages/Landingpage";
 
 const Page = ({ children }) => {
   return (
-    <><></><Navbar />
+    <>
     <div className="max-w-6xl mx-auto py-4 px-2">
-      <h1 className="font-[inter] text-3xl color-[#3f3d56] font-bold">Unlock your potential:</h1>
-      <h2 className="font-[inter] text-3xl color-[#3f3d56] font-bold">Connect with opportunities</h2>
-      <p className="">Jumpstart your IT career <span>with hands-on <br />project</span>from MakeWeWork virtual Lab and industry leaders</p>
-
-      <div>
-        <p>No experience? No problem <br />Your journey to professional success starts here.</p>
-      </div>
-      <div className="flex">
-        <button className="px-1 py-1 text-white rounded-lg bg-black">Get started</button>
-        <button className="px-1 py-1 text-black rounded-lg bg-green-100">Start building your portfolio here</button>
-      </div>
+    <div>
+      <Landingpage/>
+    </div>
 
       <section>
         <div>
@@ -37,7 +29,6 @@ const Page = ({ children }) => {
           </div>
         </div>
       </section>
-
 
       <section>
         <div>
@@ -95,6 +86,7 @@ const Page = ({ children }) => {
       </section>
 
     </div></>
+
   )
 };
 
