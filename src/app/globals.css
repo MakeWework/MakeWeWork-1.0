@@ -27,7 +27,6 @@
   align-items: center;
 
   color: whitesmoke;
-
   
 }
 
@@ -54,13 +53,14 @@
 
 /* Hero content  */
 
-
+#hero-content
+{
+    padding: 56px 202px;
+}
 
 #hero-title
 {
-  width: 50%;
-
-  margin: 56px 0px 0px 202px;
+  width: 60%;
 }
 
 #hero-title h2
@@ -79,13 +79,11 @@
   color: white;
 }
 
-
 #hero-btns
 {
     display: flex;
     gap: 24px;
 }
-
 
 #hero-btns button
 {
@@ -108,4 +106,53 @@
     border-color: black;
     border-radius: 12px;
 
+}
+
+/*Scaffolding Section B*/
+#body-sectionB
+{
+    padding: 80px 202px;
+
+}
+
+#content-sectionB
+{
+    display: flex;
+    gap: 8px;
+}
+    
+
+#frame-sectionB
+{
+    width: 400px;
+    height: 494px;
+
+    border-radius: 16px;
+
+    background-color: rgba(46, 45, 45, 0.664);
+
+    /*
+    background-image: url();
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    */
+}
+
+#title-sectionB
+{
+    font-weight: medium;
+    font-size: 30px;
+
+}
+
+#title-sectionB span
+{
+    color: rgb(39, 236, 39);
+}
+
+#title-sectionB p
+{
+    font-weight: 400;
+    font-size: 14px;
 }
